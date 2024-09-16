@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(145deg, rgb(68, 68, 68), rgb(14, 13, 13));
+    min-height: 100vh;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        background: white;
+    }
+}
+
+
+h3 {
+    font-size: 32px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+.senha-caixa {
+
+    background: white;
+    border-radius: 10px;
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+
+
+}
+
+
+.form-senha {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  
+}
+
+label {
+
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+input {
+    outline: 0;
+    border: 2px solid #d0d0d0;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 5px;
+    width: 250px;
+    
+
+}
+
+input:focus {
+    border: 2px solid gold;
+    
+}
+
+::placeholder {
+    color: #c1c1c1;
+    font-style: italic;
+}
+
+button {
+    margin-top: 8px;
+    padding: 12px;
+    font-weight: bold;
+    background: linear-gradient(gold, yellow);
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    font-size: 17px;
+
+}
+
+ul{
+    
+    padding: 10px;
+    margin: 0;
+}
